@@ -21,7 +21,7 @@ Antes de iniciar o deploy, certifique-se de ter as seguintes ferramentas instala
 	`cd api-rest-faculdade`
 
 3.  Construa a imagem Docker da aplicação:
-
+        `rode o mvn clean install`
 	`docker build -t rest:1.0`
 
 4.  Faça o login no Docker Hub:
