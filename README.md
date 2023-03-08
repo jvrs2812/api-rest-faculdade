@@ -60,6 +60,9 @@ Antes de iniciar o deploy, certifique-se de ter as seguintes ferramentas instala
 
    e basta fazer o deploy, lembrando sempre de exportar as portas que sua apliação usa, no nosso caso a 8080
 
+## OBS
+Se notarem o docker file faz referencia ao java para arm, como a vps e com processadores arm, vocês não conseguiram subir aplicações que não tem suporte para processadores arms
+
 
 ## Avançado
 Utilizei o cloudflare com os tunnels para não ter que ficar abrindo portas da vps para o mundo e ao mesmo tempo proteger o ip da minha máquina real, mas como esse topico é avançado e mais complicado fico a disposição a responde qualquer duvida sobre.
